@@ -1,0 +1,82 @@
+/* external style tag using include .cdd file in main index file, all styles copy as it is to there children site for maintaning consistency and look  */
+
+*{
+    margin: 0;       /* set page layout using margin and padding */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 50px;     /* set header height (logo,home,services,contact */
+}
+li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    /*select styles for navigation bar,test font,font size,*/
+    font-size: 20px;
+    display: inline;  /* all text is in one horizintal line */
+    margin: 5px;        /*select maragin and padding for the same */
+    padding: 10px;
+}
+li :hover{ /* when we go on navigation text the text change colour*/
+    color: rgb(248, 151, 15);
+}
+.container :hover{ /* grayscale effect */
+    filter:grayscale(100%)
+    
+}
+h2{
+    text-align: center;
+    color: rgb(27, 199, 251);
+}
+.update{
+   color: rgb(255, 186, 47);
+    text-align: center;
+   
+    
+    
+}
+.content{
+    background-color: gray;   /*select background-color for main inside the content */ 
+    color: antiquewhite;      /* select text color */
+    text-justify:auto;
+    font-size: 20px;
+    height: 100vh;
+    margin: 0px;
+    padding: 40px;
+}
+.footer{                 /* style for footer */
+    padding: 15px 0;
+    background-color: white;
+    text-align: center;
+}
+.footer .social{   /* selest alinement, padding and colour for social media icon */
+    text-align: center;
+    padding-bottom: 20px;
+    color: black;
+}
+.footer .social a{    /* inside the footer select style for social media icon round circle , border, width and alinement */
+    font-size: 25px;
+    border: 2px solid rgb(64, 2, 126) ;
+    width: 45px;
+    height: 45px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px ;
+    cursor: pointer;
+}
+.footer .social a :hover{       /* when we go on social media icon there colour will change using hover animation */
+    color: rgb(255, 140, 0);
+}
+.list :hover{      /* when we go on navigation text which is present in footer there colour will change using hover animation */
+    font-size: 20px;
+    color: rgb(253, 167, 62);
+}
+p{     /* control margin of last sentence which is copyright */
+   margin: 35px; 
+}
+
+
+
+
+
